@@ -1,0 +1,15 @@
+[package]
+name = "rlay_client_lib_experiment"
+version = "0.1.0"
+authors = ["Maximilian Goisser <goisser94@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rlay_client_lib_experiment_macros = { path = "../rlay_client_lib_experiment_macros" }
+
+rlay_ontology = { version = "0.2.6", features = ["web3_compat"] }
+cid_fork_rlay = "0.3.1"
+serde_cbor = "0.11.1"
+serde = "1.0"

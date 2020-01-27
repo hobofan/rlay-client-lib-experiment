@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "rlay_client_lib_experiment",
+    "rlay_client_lib_experiment_macros",
+]
